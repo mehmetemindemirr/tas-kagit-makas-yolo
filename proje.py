@@ -14,7 +14,7 @@ bekleme_suresi = 2
 def kim_kazanir(oyuncu,bilgisayar):
     if oyuncu == bilgisayar:
         return "berabere"
-    kazanan_durumlar=[("tas","makas"),("kagit","makas"),("makas","kagit")]
+    kazanan_durumlar=[("tas","makas"),("kagit","tas"),("makas","kagit")]
     if (oyuncu,bilgisayar) in kazanan_durumlar:
         skor["oyuncu"] +=1
         return "kazandın!"
