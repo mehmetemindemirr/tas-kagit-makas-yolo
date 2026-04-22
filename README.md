@@ -50,6 +50,8 @@ Plaintext
 ├── main.py              # Oyunun ana kaynak kodu
 ├── README.md            # Proje dokümantasyonu
 └── .gitignore           # Takip edilmeyecek dosyalar
+
+
 🧠 Nasıl Çalışır?
 Görüntü İşleme: OpenCV ile kameradan alınan kareler yatay olarak aynalanır.
 
